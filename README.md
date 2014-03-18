@@ -1,5 +1,11 @@
 pjl-comp-filter
 ===============
+Rebranding: ziplet
+==================
+Project has been migrated to https://github.com/ziplet/ziplet
+
+Description
+============
 
 This filter can, based on HTTP headers in a HttpServletRequest, compress data written to the HttpServletResponse, or decompress data read from the request. When supported by the client browser, this can potentially greatly reduce the number of bytes written across the network from and to the client. As a Filter, this class can also be easily added to any J2EE 1.3+ web application.
 
